@@ -1,0 +1,18 @@
+@import "../../styles/color";
+
+.loginForm {
+  .loginForm--Paper--FormControl {
+    width: 100%;
+  }
+}
+.loginForm--Paper--Password {
+  margin-top: 20px;
+}
+.loginForm--Paper--ForgotPassword {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+}

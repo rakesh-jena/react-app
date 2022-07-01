@@ -1,0 +1,69 @@
+@import "../../styles/color";
+
+.confirmEamilForm {
+  width: 500px;
+  margin: 30px 0 30px 30px;
+  .confirmEamilForm--Form {
+    border-radius: 10px;
+    height: 82vh;
+    color: $veryLightShadeOfGray;
+    background-color: $jellyBean;
+    position: relative;
+    .confirmEamilForm--Form--Top {
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .confirmEamilForm--Form--Top--TitleDiv {
+        margin-bottom: 25px;
+        .confirmEamilForm--Form--Top--TitleDiv--Title {
+          font-size: 20px;
+          font-family: Benzin Extra Bold;
+          letter-spacing: 2px;
+          display: inline-block;
+          transform: scaley(1.3);
+        }
+      }
+      .confirmEamilForm--Form--Top--Confirm {
+        margin-bottom: 25px;
+        .confirmEamilForm--Form--Top--Confirm--Span {
+          font-family: DM Sans Bold;
+          font-size: 18px;
+        }
+      }
+      .confirmEamilForm--Form--Top--Description {
+        margin-bottom: 25px;
+        .confirmEamilForm--Form--Top--Description--Span {
+          font-size: 18px;
+        }
+      }
+      .confirmEamilForm--Form--Top--Divider {
+        margin-bottom: 25px;
+        background-color: $veryLightShadeOfGray;
+      }
+      .confirmEamilForm--Form--Top--Resend {
+        .confirmEamilForm--Form--Top--Resend--Link {
+          color: $chefchaouenBlue;
+          font-size: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+    .confirmEamilForm--Form--Bottom {
+      width: 100%;
+      height: 120px;
+      position: absolute;
+      bottom: 0;
+      background-color: $chefchaouenBlue;
+      border-radius: 0 0 10px 10px;
+      .confirmEamilForm--Form--Bottom--Signin {
+        padding-left: 20px;
+        margin-top: 40px;
+        .confirmEamilForm--Form--Bottom--Signin--Link {
+          color: $blueWhale;
+          font-size: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

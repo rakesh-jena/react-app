@@ -1,0 +1,31 @@
+.dashaboard {
+  margin-top: 140px;
+
+  .dashaboard--Content {
+    height: 78vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .dashaboard--Content {
+    margin-top: 30px;
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+
+  .dashaboard--Content::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f6f6f6;
+  }
+
+  .dashaboard--Content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px #f6f6f6;
+    //  border-radius: 10px;
+  }
+
+  .dashaboard--Content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px #d3d4ce;
+    background-color: #d3d4ce;
+  }
+}

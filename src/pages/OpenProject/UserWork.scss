@@ -1,0 +1,29 @@
+.userWork {
+  margin-top: 30px;
+  margin-right: 8%;
+  .userWork--Top {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .userWork--Top--Title {
+      font-size: 20px;
+      font-family: "DM Sans";
+      color: rgb(45, 45, 45);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: left;
+    }
+    .userWork--ViewProf {
+      float: right;
+      font-size: 15px;
+      font-family: "DM Sans";
+      color: rgb(40, 113, 148);
+      line-height: 1.25;
+      cursor: pointer;
+    }
+  }
+  .userWork--Work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

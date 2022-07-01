@@ -1,0 +1,17 @@
+export const dashboardItems = [
+  "Material UI",
+  "React JS",
+  "Next JS",
+  "Bootstrap",
+  "Introduction to Node JS",
+  "Java Programming",
+  "Python language",
+  "Communication",
+  "Compiler",
+  "React Native",
+  "Tailwind CSS",
+  "MUI V-5",
+  "HTML5",
+  "CSS3",
+  "Introduction to Programming",
+];

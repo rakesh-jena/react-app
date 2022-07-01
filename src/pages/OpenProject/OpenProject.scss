@@ -1,0 +1,91 @@
+@import "../../styles/color";
+
+.openProject--NavClose {
+  margin-left: 8%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 95vh;
+  margin-bottom: 150px;
+}
+
+.openProject--NavOpen {
+  margin-left: 8%;
+  margin-top: 70px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 95vh;
+  margin-bottom: 100px;
+}
+
+.openProject--Summary {
+  margin-top: 30px;
+  margin-right: 8%;
+  .openProject--Summary--TitleDiv--Title {
+    font-size: 25px;
+    font-family: "DM Sans";
+    color: rgb(45, 45, 45);
+    font-weight: bold;
+  }
+  .openProject--Summary--About {
+    width: 100%;
+    font-size: 18px;
+    font-family: "DM Sans";
+    color: rgb(145, 145, 144);
+    line-height: 1.25;
+    text-align: left;
+  }
+
+  .openProject--Summary--Divider {
+    margin-top: 60px;
+  }
+
+  .openProject--Summary--MidName {
+    text-align: center;
+  }
+
+  .openProject--Summary--Mid {
+    .openProject--Summary--Mid--Avatar {
+      bottom: 19px;
+    }
+  }
+
+  .openProject--Summary--MidName {
+    .openProject--Summary--MidName--Name {
+      font-size: 18px;
+      font-family: "DM Sans";
+      color: rgb(40, 113, 148);
+    }
+  }
+}
+
+.openProject--NavClose::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f6f6f6;
+}
+
+.openProject--NavClose::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px #f6f6f6;
+  //  border-radius: 10px;
+}
+
+.openProject--NavClose::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px $blueWhale;
+  background-color: $blueWhale;
+}
+
+.openProject--NavOpen::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f6f6f6;
+}
+
+.openProject--NavOpen::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px #f6f6f6;
+  border-radius: 10px;
+}
+
+.openProject--NavOpen::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px $blueWhale;
+  background-color: $blueWhale;
+}

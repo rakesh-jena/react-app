@@ -1,0 +1,28 @@
+.registerForm {
+  .registerForm--TextFieldDiv {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  .registerForm--FormControl {
+    width: 49%;
+  }
+
+  .registerForm--TextFieldDiv--PhoneExtend {
+    width: 20%;
+  }
+
+  .registerForm--TextFieldDiv--PhoneNumber {
+    width: 78%;
+  }
+
+  .registerForm--TextFieldDiv--Extra {
+    width: 100%;
+  }
+
+  .registerForm--Password {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

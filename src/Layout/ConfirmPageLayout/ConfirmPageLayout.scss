@@ -1,0 +1,25 @@
+@import "../../styles/color";
+
+.confirmationPageLayout {
+  background-color: $blueWhale;
+  height: 90vh;
+  margin: 40px;
+  border-radius: 10px;
+  color: $veryLightShadeOfGray;
+  .confirmationPageLayout--Div {
+    display: flex;
+    padding: 30px;
+    .confirmationPageLayout--Div--Left {
+      width: 75%;
+      .confirmationPageLayout--Paper--LogoDiv {
+        width: 80px;
+        .confirmationPageLayout--Paper--LogoDiv--Logo {
+          width: 100%;
+        }
+      }
+    }
+    .confirmationPageLayout--Div--Right {
+      width: 25%;
+    }
+  }
+}

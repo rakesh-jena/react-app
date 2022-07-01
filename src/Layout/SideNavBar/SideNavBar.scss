@@ -1,0 +1,81 @@
+@import "../../styles/color";
+
+.sideNavBar {
+  margin-left: auto;
+  .sideNavBar--List--Active {
+    .sideNavBar--Tab {
+      margin: 0;
+      padding: 0;
+      min-width: 50px;
+    }
+  }
+  .sideNavBar--ListItemIcon--Active {
+    fill: $blueWhale;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.sideNavBar--Div {
+  color: #f6f6f6;
+  .confirmationPageLayout--Paper--LogoDiv {
+    width: 100px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    .confirmationPageLayout--Paper--LogoDiv--Logo {
+      width: 100%;
+    }
+  }
+
+  .sideNavBar--Div--Active {
+    @extend .sideNavBar--Div;
+    display: flex;
+  }
+}
+
+.sideNavBar--List {
+  .sideNavBar--ListItem {
+    padding: 0;
+    &:hover {
+      background-color: inherit;
+    }
+  }
+  .css-10d9dml-MuiTabs-indicator {
+    width: 6px;
+    height: 20px;
+    background-color: #a3d1e7;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  .sideNavBar--ListItemIcon {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: $veryLightShadeOfGray;
+    width: 50px;
+    height: 50px;
+  }
+  .sideNavBar--ListItemIcon--Avatar {
+    margin-left: auto;
+    margin-right: auto;
+    fill: $veryLightShadeOfGray;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.sideNavBar--TabDiv--Name {
+  font-size: 20px;
+  font-family: "DM Sans";
+  color: rgb(246, 246, 246);
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.sideNavBar--Tab.Mui-selected {
+  color: $blueWhale;
+}

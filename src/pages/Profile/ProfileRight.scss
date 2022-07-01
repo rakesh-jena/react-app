@@ -1,0 +1,33 @@
+@import "../../styles/color";
+
+.profileRight {
+  float: right;
+  width: 60%;
+  text-align: right;
+  .profileRight--Designation {
+    font-size: 18px;
+    color: rgb(145, 145, 144);
+    font-family: "DM Sans";
+  }
+  .profileRight--About {
+    text-align: right;
+    font-size: 18px;
+    font-family: "DM Sans";
+    color: rgb(145, 145, 144);
+    line-height: 1.25;
+  }
+  .profileRight--Rating {
+    font-size: 25px;
+    font-family: "DM Sans";
+    font-weight: bold;
+    .profileRight--Rating--UserRating {
+      color: $blueWhale;
+    }
+    .profileRight--Rating--Slash {
+      color: $blueWhale;
+    }
+    .profileRight--Rating--TotalRate {
+      color: #d3d4ce;
+    }
+  }
+}

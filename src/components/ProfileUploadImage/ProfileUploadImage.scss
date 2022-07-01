@@ -1,0 +1,35 @@
+@import "../../styles/color";
+
+.profileUploadImage {
+  .profileUploadImage--Header {
+    margin-bottom: 55px;
+    .profileUploadImage--Header--Title {
+      font-size: 25px;
+      font-family: DM Sans Bold;
+    }
+  }
+
+  .profileUploadImage--AvatarAdd {
+    display: flex;
+    .profileUploadImage--AvatarAdd--Avatar {
+      width: 165px;
+      height: 165px;
+      background-color: inherit;
+      border: 2px dashed $veryLightShadeOfGray;
+      cursor: pointer;
+    }
+    .profileUploadImage--AvatarAdd--UploadButton {
+      margin-left: 50px;
+
+      .profileUploadImage--AvatarAdd--UploadButton--ChooseDefault {
+        margin-top: 20px;
+        font-size: 16px;
+
+        .profileUploadImage--AvatarAdd--UploadButton--ChooseDefault--Arrow {
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+  }
+}

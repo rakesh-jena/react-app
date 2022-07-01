@@ -1,0 +1,18 @@
+@import "../../styles/color";
+
+.kwadLeft {
+  .kwadLeft--Paper {
+    height: 90vh;
+    background-color: $blueWhale;
+    color: $veryLightShadeOfGray;
+    border-radius: 20px;
+    .kwadLeft--Paper--LogoDiv {
+      padding-left: 30px;
+      padding-top: 30px;
+      width: 80px;
+      .kwadLeft--Paper--LogoDiv--Logo {
+        width: 100%;
+      }
+    }
+  }
+}

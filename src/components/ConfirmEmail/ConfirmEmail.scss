@@ -1,0 +1,12 @@
+.confirmEmail {
+  margin: 30px;
+  position: relative;
+}
+.confirmEmail--Left,
+.confirmEmail--Sinin {
+  //width: 100%;
+  position: absolute;
+}
+.confirmEmail--Sinin {
+  z-index: 10;
+}

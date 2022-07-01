@@ -1,0 +1,46 @@
+@import "../../styles/color";
+
+.describeUser--PageTitle {
+  margin-bottom: 20px;
+  .describeUser--PageTitle--Title {
+    font-family: Benzin Extra Bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    display: inline-block;
+    transform: scaley(1.3);
+    padding-bottom: 10px;
+  }
+}
+
+.describeUser--PageDescription {
+  .describeUser--PageDescription--Description {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.describeUser--SelectOption {
+  margin-top: 30px;
+  width: 70%;
+  height: 38vh;
+  display: flex;
+  justify-content: space-between;
+  .describeUser--SelectOption--Option {
+    border: 1px solid $veryLightShadeOfGray;
+    height: 36vh;
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+
+    .describeUser--SelectOption--Option--Type {
+      bottom: 30px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 20px;
+      cursor: pointer;
+      transform: translate(-50%, 50%);
+    }
+  }
+}

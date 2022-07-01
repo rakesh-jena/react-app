@@ -1,0 +1,16 @@
+.dashboardContent {
+  display: flex;
+  width: 100%;
+  .dashboardContent--Container {
+    column-count: 4;
+    column-gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .open {
+    column-count: 5;
+    column-gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+}

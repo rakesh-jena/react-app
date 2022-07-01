@@ -1,0 +1,63 @@
+@import "../../styles/color";
+
+.profileLeft {
+  .profileLeft--ImageDiv {
+    height: 250px;
+    width: 250px;
+    border: 2px solid $blueWhale;
+    border-radius: 5px;
+    padding: 10px;
+    .profileLeft--ImageDiv--Image {
+      height: 220px;
+      width: 250px;
+      object-fit: contain;
+    }
+  }
+  .profileLeft--ConnectUser {
+    display: flex;
+    margin-top: 15px;
+    width: 250px;
+    .profileLeft--ConnectUser--Connect {
+      border: 2px solid $blueWhale;
+      background-color: inherit;
+      border-radius: 12px;
+      width: 80px;
+      height: 40px;
+      text-transform: capitalize;
+      font-family: "DM Sans";
+      color: rgb(2, 50, 70);
+      font-weight: bold;
+    }
+    .profileLeft--ConnectUser--Message {
+      cursor: pointer;
+      margin-left: auto;
+    }
+    .profileLeft--ConnectUser--Follow {
+      border: 2px solid #d3d4ce;
+      background-color: #d3d4ce;
+      border-radius: 12px;
+      width: 80px;
+      height: 40px;
+      text-transform: capitalize;
+      font-family: "DM Sans";
+      color: rgb(2, 50, 70);
+      font-weight: bold;
+      margin-left: auto;
+    }
+  }
+  .profileLeft--UserCost {
+    margin-top: 15px;
+    .profileLeft--UserCost--Price {
+      font-family: "DM Sans";
+      color: rgb(2, 50, 70);
+      font-weight: bold;
+      font-size: 40px;
+      margin-right: 15px;
+    }
+    .profileLeft--UserCost--Text {
+      font-family: "DM Sans";
+      color: #496572;
+      font-size: 20px;
+    }
+  }
+}

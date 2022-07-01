@@ -1,0 +1,61 @@
+@import "../../styles/color";
+
+.mainChat {
+  width: 50%;
+  height: 90vh;
+  position: relative;
+  .mainChat--Header {
+    height: 70px;
+    background-color: #e9e9e8;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0 0 8px 8px;
+    .mainChat--Header--ImageDiv {
+      width: 60px;
+      height: 50px;
+      border-radius: 10px;
+      border: 2px solid #d3d4ce;
+      .mainChat--Header--ImageDiv--Image {
+        width: 100%;
+      }
+    }
+    .mainChat--Header--Name {
+      font-size: 25px;
+      font-family: "DM Sans";
+      font-weight: bold;
+      color: $blueWhale;
+      margin-left: 10px;
+    }
+    .mainChat--Header--Left {
+      margin-left: auto;
+    }
+  }
+  .textFieldSize {
+    width: 100%;
+  }
+  .mainChat--Header--Left--Icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    fill: $blueWhale;
+  }
+  .add {
+    margin-right: 10px;
+  }
+  .send {
+    margin-left: 10px;
+  }
+  .call {
+    margin-right: 15px;
+  }
+  .mainChat--Bottom {
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    margin-bottom: 25px;
+    width: 100%;
+    .mainChat--Bottom--TextField {
+      width: 90%;
+    }
+  }
+}

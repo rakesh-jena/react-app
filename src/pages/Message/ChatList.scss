@@ -1,0 +1,32 @@
+@import "../../styles/color";
+
+.chatList {
+  width: 24%;
+  .chatList--Header {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    .chatList--Header--Chats {
+      color: $blueWhale;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "DM Sans";
+    }
+    .chatList--Header--Right {
+      margin-left: auto;
+      .chatList--Header--Right--Icon {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        fill: $blueWhale;
+      }
+    }
+  }
+  .searchIcon {
+    margin-left: 10px;
+  }
+  .textFieldSize--Chat {
+    width: 90%;
+  }
+}

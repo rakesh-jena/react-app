@@ -1,0 +1,56 @@
+@import "../../styles/color";
+
+.profileBottom {
+  margin-top: 15px;
+  margin-right: 8%;
+  .profileBottom--TabContext--TabList {
+    margin-bottom: 15px;
+    .profileBottom--TabContext--TabList--Tab {
+      font-size: 20px;
+      font-family: "DM Sans";
+      color: #ffffff;
+      font-weight: bold;
+      width: auto;
+      height: 30px;
+      text-transform: capitalize;
+      border: 1px solid $blueWhale;
+      background-color: $blueWhale;
+      border-radius: 16px;
+    }
+    .profileBottom--TabContext--TabList--Tab--UnSelect {
+      font-size: 20px;
+      font-family: "DM Sans";
+      color: $blueWhale;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+  }
+  .profileBottom--FormControl {
+    border: 1px solid #d3d4ce;
+    border-radius: 15px;
+  }
+
+  .profileBottom--Divider {
+    width: 100%;
+    border-width: 1px;
+  }
+}
+
+.profileBottom > div:first-child {
+  float: right;
+}
+
+.profileBottom--Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .profileBottom--Projects--Project {
+    margin-bottom: 20px;
+    .profileBottom--Projects--Project--Title {
+      font-size: 20px;
+      font-family: "DM Sans";
+      color: rgb(45, 45, 45);
+      font-weight: bold;
+    }
+  }
+}

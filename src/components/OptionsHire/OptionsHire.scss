@@ -1,0 +1,44 @@
+@import "../../styles/color";
+
+.optionsHire--PageTitle {
+  margin-bottom: 20px;
+  .optionsHire--PageTitle--Title {
+    font-family: Benzin Extra Bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    display: inline-block;
+    transform: scaley(1.3);
+    padding-bottom: 10px;
+  }
+}
+
+.optionsHire--PageDescription {
+  margin-bottom: 30px;
+  .optionsHire--PageDescription--Description {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.optionsHire--RowOne {
+  display: flex;
+  .optionsHire--Option {
+    margin-top: 50px;
+    margin-right: 30px;
+    background-color: $veryLightShadeOfGray;
+    width: 23%;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    .optionsHire--Option--Span {
+      font-size: 26px;
+      color: $blueWhale;
+      font-weight: 600;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
